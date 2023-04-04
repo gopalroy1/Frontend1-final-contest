@@ -1,0 +1,195 @@
+                /* Common desings for the site  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    
+}
+body{
+    background-color: #333333;
+}
+                /* Nav bar desing  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #B1A592;
+    border-radius: 50px;
+    padding: 3px;
+    margin: 18px 22px 18px 19px ;
+}
+.leftnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rightnav{
+    display: flex;
+}
+.navchild{
+    padding: 0 40px;
+    background: rgba(155, 134, 79, 0.2);
+    border-radius: 50px;
+    height: 50px;
+    margin-right: 3px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #B1A592;
+    border: 1px solid #B1A592;
+    
+}
+
+                /* Main content desing  */
+
+.grid-container{
+
+   grid-template-columns: 1fr 2fr;
+    display: grid;
+    gap: 17px;
+}
+.right-card{
+    display: grid;
+    grid-template-rows: 7fr 12fr;
+    row-gap: 25px;
+}
+.right-card-bottom{
+    display: grid;
+    grid-template-columns: 27fr 35fr;
+    column-gap: 27px;
+}
+.card{
+
+}
+.left-card{
+    background-color: #DFD6C5;
+    border-radius: 30px;
+    height: 950px;
+}
+.element-one{
+    margin: 33px 0px 10px 5px;
+    
+}
+.box1-heading-bold{
+    margin-left: 18px;
+}
+.element-one> span{
+    border: 1px solid #323025;
+    border-radius: 50px;
+   
+    margin: 33px 0 0 18px;
+}
+.left-card>div>img{
+    margin:19px 18px 37px 18px;
+}
+
+.title-card{
+
+    font-size: 20px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #323025;
+border: 1px solid #323025;
+padding: 5px 30px 5px 31px;
+border-radius: 50px;
+
+}
+.title-card-bold{
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.inner-text{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.line{
+    border: 1px solid #333333;
+ 
+}
+.card-foot{
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+.get-started{
+    margin: 19px 0px 17px 30px;
+}
+.arrow{
+    margin: 22px 26px 17px 0px;
+}
+            /* Right top card  */
+.right-card{
+margin-right: 42px;
+}
+.right-card-top{
+    border-radius: 30px;
+    background-color: #8E886D;
+}
+#right-top-1{
+    margin: 33px 0px 15px 18px;
+}
+.right-top-heading-bold{
+    margin: 10px 0px 0px 18px;
+}
+.right-top-inner-text{
+    margin: 23px 0px 0px 19px;
+}
+.box-2-image{
+    margin: 33px 29px 23px 14px;
+}
+
+
+.content{
+    display: flex;
+}
+            /* Right Bottom1 card  */
+.bottom1{
+    background-color: #916E58;
+    border-radius: 30px;
+    height: 444px;
+}
+.bottom1>img{
+    margin: 12px 13px 18px 7px;
+}
+.bottom1-heading {
+    margin: 0px 81px 10px 20px ;
+    text-underline-position: auto;
+}
+.bottom1-inner-text{
+    margin: 0px 14px 26px 9px;
+}
+.bottom1-line{
+
+}
+.bottom2{
+    background-color: #B1A48E;
+    border-radius: 30px;
+    height: 444px;
+}
+.bottom2-heading{
+    margin: 50px 0px 0px 18px;
+}
+.bottom2-image-container{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom2-heading-bold{
+    margin: 41px 10px 0px 31px;
+}
+.bottom2-image{
+    margin: 0px 33px 0px 0px;
+}
+.bottom2-inner-text{
+    margin: 0px 69px 40px 20px;
+}
